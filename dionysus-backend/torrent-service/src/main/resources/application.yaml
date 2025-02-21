@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/dionysus
-    username: postgres
-    password: ab@mac
+    username: *******
+    password: *******
   jpa:
     hibernate:
       ddl-auto: update
