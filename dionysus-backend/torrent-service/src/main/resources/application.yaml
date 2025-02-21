@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dionysus
+    username: postgres
+    password: ab@mac
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
